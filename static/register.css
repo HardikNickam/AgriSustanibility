@@ -1,0 +1,88 @@
+body {
+  background-color: #f1f1e5;
+  background-image: linear-gradient(to bottom right, #d8f3dc, #95d5b2);
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+h2 {
+  text-align: center;
+  color: #343a40;
+}
+
+form {
+  background-color: #f1f1e5;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: -10px -10px 20px #ffffff, 10px 10px 20px #d1cdc7;
+}
+
+label {
+  color: #343a40;
+}
+
+.form-control {
+  border: none;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  box-shadow: inset 5px 5px 10px #d1d9e6, inset -5px -5px 10px #ffffff;
+}
+
+.btn-dark,
+.btn-primary {
+  width: 100%;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-dark {
+  background-color: #081c15;
+  color: #fff;
+  box-shadow: 3px 3px 5px #b7b7b7, -3px -3px 5px #ffffff;
+
+}
+
+.btn-dark:hover {
+  background-color: #31373c;
+}
+
+.btn-primary {
+  background-color: #184e77;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.back-icon {
+  font-size: 1.5em;
+  color: #343a40;
+  margin-right: 5px;
+}
+
+/* Additional styles for the neumorphic effect */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+button {
+  background-color: #f1f1e5;
+  box-shadow: inset -5px -5px 10px #ffffff, inset 5px 5px 10px #d1cdc7;
+}
+
+a {
+  color: #343a40;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #212529;
+}

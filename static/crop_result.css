@@ -1,0 +1,100 @@
+/* crop_result.css */
+
+/* Body styles */
+body {
+    background: linear-gradient(to right, #95d5b2, #d8f3dc);
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    background-color: #f8f9fa; /* Background color similar to body */
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: -10px -10px 20px #ffffff, 
+                 10px 10px 20px #d0d9e6; /* Soft neumorphic shadow */
+}
+
+/* Heading styles */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+
+}
+
+/* Prediction text styles */
+.bold-text {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Crop image styles */
+.crop-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: -5px -5px 10px #ffffff, 
+                 5px 5px 10px #d0d9e6; /* Soft neumorphic shadow */
+    margin-right: 10px;
+}
+
+/* Centered image styles */
+.centered-image {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: -5px -5px 10px #ffffff, 
+                 5px 5px 10px #d0d9e6; /* Soft neumorphic shadow */
+}
+
+/* Align to market button styles */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background: linear-gradient(to right, #4fc0d0, #1b6b93);
+    border-color: transparent;
+    box-shadow: -5px -5px 10px #ffffff, 
+                 5px 5px 10px #d0d9e6; /* Soft neumorphic shadow */
+    margin: 0 auto;
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, #A2FF86, #4FC0D0, #1B6B93, #164B60);
+    box-shadow: -2px -2px 5px #ffffff, 
+                 2px 2px 5px #d0d9e6; /* Slightly smaller shadow on hover */
+}
+
+.form-control {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.predicted-crops {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.predicted-crops img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: -5px -5px 10px #ffffff, 
+                 5px 5px 10px #d0d9e6; /* Soft neumorphic shadow */
+    margin-right: 10px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Market Alignment</title>
+  <link rel="stylesheet" href="../static/market.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Market Alignment</h2>
+    <p>Selected District: <strong>{{ district }}</strong></p>
+    <div class="image-container">
+      {% for crop in crops %}
+        <div>
+          <img src="{{ crop_images.get(crop.commodity.lower(), '../static/default.jpg') }}" alt="{{ crop.commodity }}">
+          <p>{{ crop.commodity }}</p>
+          <p>Rs.{{ crop.modal_price }}</p>
+        </div>
+      {% endfor %}
+</div>
+  </div>
+  <div class="graph-container">
+    <div id="crop-chart">
+      <img src="{{ url_for('static', filename='crop_prices.png') }}" alt="Crop Prices">
+    </div>
+    </div>
+    <div class="buttons">
+      <a href="/dashboard" class="button">Back</a>
+      <a href="/croppred" class="button">Input Page</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(to right, #95d5b2, #d8f3dc);
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: #343a40;
+}
+
+.navbar {
+    background: linear-gradient(to right, #A2FF86, #4FC0D0, #1B6B93, #164B60);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #D9C877;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-toggler-icon,
+.navbar-toggler {
+    color: #D9C877;
+    border-color: #D9C877;
+}
+
+.dropdown-menu {
+    background: linear-gradient(to right, #A2FF86, #4FC0D0, #1B6B93, #164B60);
+    margin-left: -5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+    color: #D9C877;
+}
+
+.dropdown-item:hover {
+    background-color: #212529;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    color: #343a40;
+    margin-bottom: 0;
+}
+
+.btn-primary {
+    background: linear-gradient(to right,  #4FC0D0, #1B6B93, #164B60);
+    border-color: transparent;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, #A2FF86, #4FC0D0, #1B6B93, #164B60);
+    border-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+

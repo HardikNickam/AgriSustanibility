@@ -1,0 +1,69 @@
+body {
+    background: linear-gradient(to right, #A2FF86, #4FC0D0, #1B6B93, #164B60);
+    margin-bottom: 60px; /* Adjust margin to accommodate the footer */
+}
+
+.navbar {
+    background: linear-gradient(to right, #A2FF86, #4FC0D0, #1B6B93, #164B60);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    color: white; /* Color of "Agriculture" word in the navbar */
+    font-weight: bold;
+    font-size: 1.5rem; /* Adjust font size as needed */
+}
+
+.navbar-nav .nav-link {
+    color: rgb(18, 18, 18); /* Font color of navbar links */
+    transition: color 0.3s ease-in-out;
+    margin-right: 10px; /* Add space between navbar buttons */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #164B60; /* Change color on hover */
+}
+
+.jumbotron {
+    background: linear-gradient(to right, #95d5b2, #d8f3dc);
+    color: #333;
+    text-align: center;
+    padding: 100px 0;
+    border-radius: 20px;
+    box-shadow: -10px -10px 20px #ffffff, 10px 10px 20px #d1cdc7;
+}
+
+.jumbotron h1 {
+    font-size: 4rem; /* Increase font size for better appeal */
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+.jumbotron p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    transition: color 0.3s ease-in-out;
+}
+
+.jumbotron a.btn-agriculture {
+    background-color: #081c15; /* Color of the button background */
+    color: #fff; /* Font color of the button text */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.jumbotron a.btn-agriculture:hover {
+    background-color: #184e77;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

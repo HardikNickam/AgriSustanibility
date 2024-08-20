@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #95d5b2, #d8f3dc);
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping to next line */
+    overflow-x: hidden; /* Hide content that exceeds container's width */
+    justify-content: flex-start; /* Start from the left */
+    margin-bottom: 20px; /* Add some space at the bottom */
+}
+
+.image-container div {
+    flex: 0 0 auto; /* Don't allow flex items to grow or shrink */
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.image-container img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background: linear-gradient(to right, #4FC0D0, #1B6B93, #164B60);
+    border-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background: linear-gradient(to right, #A2FF86, #4FC0D0, #1B6B93, #164B60);
+    border-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.graph-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    margin-top: 20px; /* Add space between other content and the graph */
+}
+
+#crop-chart img {
+    width: 100%; /* Make the image responsive */
+    max-width: 600px; /* Limit the maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid #ccc; /* Add a border around the image */
+    border-radius: 5px; /* Add rounded corners to the border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
